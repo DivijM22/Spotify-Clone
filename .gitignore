@@ -1,0 +1,29 @@
+# --- Node backend ---
+server/node_modules/
+server/.env
+server/npm-debug.log
+server/yarn-error.log
+
+# --- React frontend ---
+client/node_modules/
+client/.env.local
+client/.env.development.local
+client/.env.production.local
+client/.env.test.local
+client/npm-debug.log
+client/yarn-error.log
+
+# --- OS / Editor files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Build output ---
+client/build/
+server/dist/
+server/out/
+
+# --- Logs ---
+*.log
+logs/
